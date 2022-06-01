@@ -1,0 +1,76 @@
+/*cuerpo para darle color y animación*/
+body {
+    background: url('./inicio/algo.gif') repeat 0 0;
+    background-color: rgb(219, 188, 203) !important;
+
+}
+/*para camniarle el estilo a las letras que hemos insertado*/
+p{
+    font-family: "Harrington";
+    font-weight: 500;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(61, 2, 46);
+}
+/*para cambiar los margenes y se queden en medio del navegador y de la pagina*/
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+.pagination {
+    margin-left: auto;
+    margin-right: auto;
+}
+/*para camniarle el estilo al pie de pagina*/
+footer{
+    position: fixed;
+    width: 100%;
+}
+/*para camniarle el estilo a los diferentes títulos (h1, h5, h6, h2)*/
+h1{
+    font-family: "Harrington";
+    text-align: center;
+    font-size: small;
+    color: rgb(61, 2, 46);
+    
+}
+h5{
+    font-family: 'Times New Roman';
+    font-size: smaller;
+    color: black;
+}
+h6{
+    font-family: 'Harrington';
+    font-size: smaller;
+    color: black;
+}
+h2{
+    font-family: 'Harrington';
+    text-align: center;
+    color: black;
+}
+/*Etiqueta puesta a la imagen de error 404 de carrito para que se disminuyera cuando la pagina esta en formato tablet o movil*/
+#error{
+    width: 450px; height: 450px;
+}
+@media (max-width: 500px){
+     #error{
+         width: 200px;
+         height: 200px;
+     }
+}
+/*Cambiarle el formato a los distintos enlaces de menú*/
+a{
+    font-family: 'Harrington';
+    font-size:large;
+    color: rgb(61, 2, 46); 
+}
+/*Cambiarle el color a los indicadores del carrusel*/
+.carousel-indicators li {
+    background-color: black !important; 
+}
+/*Cambiarle el color al boton siguiente y posterior del carrusel*/
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: black !important;
+}
+
