@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+## 💐 You Are Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  ***
 
-## Available Scripts
+ <div align="center">
+    <h3> [Yoy are web] 👕<h3>
+    <h5>Descúbrelo en ✅</h5>
+    <h3>
+        <a href="">
+            Genial.ly
+        </a>
+        <span> | </span>
+         <a href="https://mega.nz/file/xIYCjBYL#ZPxxm2GTY--KH5RGAfwHUtCxm3IYXBt7t8y-YIbi_ZI">
+            Swagger
+        </a>
+        <span> | </span>
+         <a href="https://youtu.be/EiUUxYZbDI4">
+            VideoDemo
+        </a>
+    </h3>
+</div>
 
-In the project directory, you can run:
+***
 
-### `npm start`
+### 📄 Sobre el proyecto 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tienda de Ropa REST API con Express y Mongoose haciendo uso de Docker y Sonarqube.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🚀 Despliegue
 
-### `npm test`
+Tan sólo deberás de instalar las librerías requeridas con **npm install**. También asegurate de tener Docker instalado en tu máquina y para una mayor experiencia, te recomendamos usar Postman o Insomnia para realizar las peticiones HTTP.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+***
 
-### `npm run build`
+### 🧪 Tecnologías
+Usado [Express](https://expressjs.com/es/ "Express") y [Mongoose](https://mongoosejs.com/ "Mongoose Documentation").
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Librerías usadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* _body-parser_
+* _cross-fetch_
+* _dotenv_
+* _jsonwebtoken_
+* _moment_
+* _mongoose_
+* _nodemailer_
+* _sonarqube-scanner_
+* _jest_
+* _jest-sonar-reporter_
+* _nodemon_
+* _supertest_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📋 Características
 
-### `npm run eject`
+- Realización de métodos HTTP sobre las colecciones **Cliente**, **Prenda** y **Venta** (+ información en <a href="https://mega.nz/file/xIYCjBYL#ZPxxm2GTY--KH5RGAfwHUtCxm3IYXBt7t8y-YIbi_ZI">Swagger</a>)
+- Autentificación con token (*jwt*) para poder usar ciertos métodos HTTP (+ información en <a href="https://mega.nz/file/xIYCjBYL#ZPxxm2GTY--KH5RGAfwHUtCxm3IYXBt7t8y-YIbi_ZI">Swagger</a>)
+- Envío de facturas a través de gmail recogiendo los datos de una venta (+ información en <a href="https://mega.nz/file/xIYCjBYL#ZPxxm2GTY--KH5RGAfwHUtCxm3IYXBt7t8y-YIbi_ZI">Swagger</a>)
+- Uso de Sonarqube para mejorar el código e implementación de tests con Jest
+- Contenedor de Docker para guardar la aplicación 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+***
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **✨** Extra
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### VISUALIZAR SWAGGER
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+https://editor.swagger.io/
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Ir a File
+2. Import File
+3. Seleccionar el archivo swaggerTiendaAPI.yaml descargado <a href="https://mega.nz/file/xIYCjBYL#ZPxxm2GTY--KH5RGAfwHUtCxm3IYXBt7t8y-YIbi_ZI">aquí</a>
