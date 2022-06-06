@@ -10,9 +10,6 @@
             Genial.ly
         </a>
         <span> | </span>
-         <a href="https://mega.nz/file/xIYCjBYL#ZPxxm2GTY--KH5RGAfwHUtCxm3IYXBt7t8y-YIbi_ZI">
-            Swagger
-        </a>
         <span> | </span>
          <a href="https://youtu.be/EiUUxYZbDI4">
             VideoDemo
