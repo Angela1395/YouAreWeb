@@ -3,15 +3,18 @@
   ***
 
  <div align="center">
-    <h3> [Yoy are web] 👕<h3>
+    <h3> [Your are web] 👕<h3>
     <h5>Descúbrelo en ✅</h5>
     <h3>
         <a href="">
             Genial.ly
         </a>
         <span> | </span>
+        <a href="https://www.figma.com/file/48XKhN8uMvtuRpu0vD6Yqu/Your-are-web?node-id=9%3A29">
+            Figma
+        </a>
         <span> | </span>
-         <a href="https://youtu.be/EiUUxYZbDI4">
+         <a href="">
             VideoDemo
         </a>
     </h3>
@@ -21,48 +24,28 @@
 
 ### 📄 Sobre el proyecto 
 
-Tienda de Ropa REST API con Express y Mongoose haciendo uso de Docker y Sonarqube.
+Tienda de Joyas personalizables, usando Front-end, "React", "Bootstrap" y usando Back-end "EmailJs".
 
-### 🚀 Despliegue
+### 🌐 Despliegue
 
-Tan sólo deberás de instalar las librerías requeridas con **npm install**. También asegurate de tener Docker instalado en tu máquina y para una mayor experiencia, te recomendamos usar Postman o Insomnia para realizar las peticiones HTTP.
+Tan sólo deberás de instalar las librerías requeridas con **npm install**. y darle a **npm start**
 
 ***
 
-### 🧪 Tecnologías
-Usado [Express](https://expressjs.com/es/ "Express") y [Mongoose](https://mongoosejs.com/ "Mongoose Documentation").
+### 🖱️ Tecnologías
 
-> Librerías usadas
+> Framework usados
 
-* _body-parser_
-* _cross-fetch_
-* _dotenv_
-* _jsonwebtoken_
-* _moment_
-* _mongoose_
-* _nodemailer_
-* _sonarqube-scanner_
-* _jest_
-* _jest-sonar-reporter_
-* _nodemon_
-* _supertest_
-
-### 📋 Características
-
-- Realización de métodos HTTP sobre las colecciones **Cliente**, **Prenda** y **Venta** (+ información en <a href="https://mega.nz/file/xIYCjBYL#ZPxxm2GTY--KH5RGAfwHUtCxm3IYXBt7t8y-YIbi_ZI">Swagger</a>)
-- Autentificación con token (*jwt*) para poder usar ciertos métodos HTTP (+ información en <a href="https://mega.nz/file/xIYCjBYL#ZPxxm2GTY--KH5RGAfwHUtCxm3IYXBt7t8y-YIbi_ZI">Swagger</a>)
-- Envío de facturas a través de gmail recogiendo los datos de una venta (+ información en <a href="https://mega.nz/file/xIYCjBYL#ZPxxm2GTY--KH5RGAfwHUtCxm3IYXBt7t8y-YIbi_ZI">Swagger</a>)
-- Uso de Sonarqube para mejorar el código e implementación de tests con Jest
-- Contenedor de Docker para guardar la aplicación 
+* _React_
+* _Bootstrap_
 
 ***
 
 ### **✨** Extra
 
-#### VISUALIZAR SWAGGER
+Cambiamos la estructura planeada desde un principio de Figma, por otra estructura más acorde con la idea final de la página
+Realizamos una página en vez de compras on-line, a ser información de los productos que se venden fisicamente.
 
-https://editor.swagger.io/
+### **💻** Logo
 
-1. Ir a File
-2. Import File
-3. Seleccionar el archivo swaggerTiendaAPI.yaml descargado <a href="https://mega.nz/file/xIYCjBYL#ZPxxm2GTY--KH5RGAfwHUtCxm3IYXBt7t8y-YIbi_ZI">aquí</a>
+![Image text](https://github.com/Angela1395/YouAreWeb/blob/master/public/Logoempresa.PNG)
