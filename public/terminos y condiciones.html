@@ -1,251 +1,295 @@
 <!DOCTYPE html>
 <html charset="utf-8" lang="es">
+
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>You are</title>
-	<!--Icono de la pagina-->
-	<link  rel="icon" href="favi.png" type="image/png" />
-    <link rel="stylesheet" type="text/css" href="Css_Pagina.css" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>You are</title>
+  <!--Icono de la pagina-->
+  <link rel="icon" href="favi.png" type="image/png" />
+  <link rel="stylesheet" type="text/css" href="Css_Pagina.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
+
 <body>
-<!-- Menu de la pagina-->
-<div class="container-fluid">
-  <div class="row">
-    <div class="p-3 mb-2 col-12 alert alert-danger" role="alert">
-          <nav class="navbar navbar-expand-lg navbar-light col-12 ">
-      <img src="butterfly.png" style="width:35px; height:35px;">
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="acero.html">Acero<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="plata.html">Plata<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="oro.html">Oro<span class="sr-only">(current)</span></a>
-        </li>
-        <!--Menu desplegable-->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">Contactanos</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="informacion.html">Información</a>
-            <a class="dropdown-item" href="contactar.html">Asesoramiento</a>
+  <!-- Menu de la pagina-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="p-3 mb-2 col-12 alert alert-danger" role="alert">
+        <nav class="navbar navbar-expand-lg navbar-light col-12 ">
+          <img src="butterfly.png" style="width:35px; height:35px;">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="acero.html">Acero<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="plata.html">Plata<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="oro.html">Oro<span class="sr-only">(current)</span></a>
+              </li>
+              <!--Menu desplegable-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                  aria-expanded="false">Contactanos</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="informacion.html">Información</a>
+                  <a class="dropdown-item" href="contactar.html">Asesoramiento</a>
+                </div>
+              </li>
+            </ul>
+            <!--Busqueda en google para información-->
+            <form class="d-flex" role="search" method=GET action="http://www.google.com/search">
+              <table color="pink">
+                <tr>
+                  <td>
+                    <a HREF="http://www.google.com/"></a>
+                    <input TYPE=text name=q size=20 maxlength=20 value="">
+                    <input TYPE=hidden name=hl value=es>
+                    <input type=submit name=btnG VALUE="Búsqueda Google">
+                  </td>
+                </tr>
+              </table>
+            </form>
           </div>
-        </li>
-        </ul>
-         <!--Busqueda en google para información-->
-        <form class="d-flex" role="search" method=GET action="http://www.google.com/search">
-          <table color="pink"><tr><td>
-          <a HREF="http://www.google.com/"></a>
-          <input TYPE=text name=q size=20 maxlength=20 value="">
-          <input TYPE=hidden name=hl value=es>
-          <input type=submit name=btnG VALUE="Búsqueda Google">
-          </td></tr></table>
-        </form>
+        </nav>
       </div>
-      </nav>
     </div>
-      </div>
-</div>
-	<!--Logotipo de la pagina para minimizarlo en movil-->
-	<div class="d-lg-block d-xl-block d-md-block d-sm-block d-none">
-		<p class="text-center">Your Are Web</p>
-	</div>
-	<div class=" d-block d-sm-none ">
-		<p class="text-center" style="font-size: 3rem;">You're</p>
-	</div>
+  </div>
+  <!--Logotipo de la pagina para minimizarlo en movil-->
+  <div class="d-lg-block d-xl-block d-md-block d-sm-block d-none">
+    <p class="text-center">Your Are Web</p>
+  </div>
+  <div class=" d-block d-sm-none ">
+    <p class="text-center" style="font-size: 3rem;">You're</p>
+  </div>
   <br>
-	<p3 class="text-center">
-            TERMINOS Y CONDICIONES DE USO
-            <br>
-            I. TITULAR Y OBJETO
-            <br>
-        El titular de la página web www.youare.com es IMPORTACIONES Angelagc, S.L.  con domicilio social  en calle Joaquín zoyas, local 6 (Sevilla)  con CIF: ESB-2783890, dedicada a la venta de artículos de joyería y relojería, inscrita en el Registro Mercantil de Sevilla/ S 1, Asiento 782, Diario 195, Hora 11:35 / Fecha 270995, Nº entrada documento 9252.
-    Por la presente, se pretende regular las condiciones de uso y acceso al sitio web, así como de las responsabilidades derivadas de su utilización. En adelante nos referiremos a la página web como joyeriasaresso.com
-    El uso y/o utilización de joyeriasaresso.com atribuye la condición de usuario, quién declara conocer y aceptar sin reserva ni excepción las condiciones generales que en este documento se citan.
-        
-    youareweb.com dará la posibilidad a los usuarios de acceder a los servicios, que concierne al objeto social de joyeriasaresso.com., y solamente a dicho objeto como es la venta online de artículos de joyería, relojería y regalo.
+  <!--Implementación de Terminos y condiciones de uso-->
+  <p3 class="card bg-light text-center p-3 mb-2 col-12 m-auto">
+    TERMINOS Y CONDICIONES DE USO
     <br>
-    Las presentes Condiciones Generales se resolverán automáticamente por la extinción de la sociedad IMPORTACIONES LEYRA-GUTIÉRREZ, S.L. o por la presentación de solicitudes de declaración de quiebra, voluntaria o necesaria suspensión de pagos, concurso de acreedores, cesión general de bienes a favor de acreedores, cese de las actividades propias de la sociedad, petición de quita o espera etc.
-        
-        Si cualquier cláusula incluida en estas condiciones generales fuese declarada, total o parcialmente, nula o ineficaz, tal nulidad o ineficacia afectará tan sólo a dicha disposición o a la parte de la misma que resulte nula o ineficaz, subsistiendo las condiciones generales en todo lo demás, teniéndose tal disposición, o la parte de la misma que resultase afectada, por no puesta.
-        
-        Joyeriasaresso.com dispone del número de teléfono 942.32.42.92 así como la dirección de correo electrónico contacto@joyeriasaresso.com donde el usuario podrá resolver las dudas que se le presenten.
-        <br>  
-         II. DERECHOS Y OBLIGACIONES DEL USUARIO
-         <br>  
-        Las condiciones de acceso a joyeriasaresso.com están suscritas  a las disposiciones legales vigentes en cada momento así como a los principios de buena fe y uso lícito por parte del usuario, prohibiéndose expresamente cualquier clase de actuación que pudiera ir en  perjuicio de joyeriasaresso.com o de terceras personas físicas y/o jurídicas.
-        
-        Joyeriasaresso.com no exige darse de alta en nuestra web  para la simple navegación, acceso o utilización del servicio en cuestión. El usuario se compromete a hacer un uso lícito, diligente y correcto de cuanta información o contenido tenga acceso bien a través de nuestra web o de otras webs adjuntas a joyeriasaresso.com y todo ello bajo el principio de la buena fe y con respeto en todo momento a la legalidad vigente. Queda totalmente prohibido copiar, reproducir, distribuir, ceder o modificar el contenido de nuestra web sin nuestro consentimiento por escrito.
-        
-        El usuario/cliente debe cumplir los derechos de propiedad intelectual e industrial que afecten a nuestra web, joyeriasaresso.com
-        
-        El usuario/cliente de nuestra web joyeriasaresso.com, debe de usar y conservar un nombre de usuario y una contraseña en virtud de las siguientescláusulas.
-        
-        Podrá elegir una nombre de usuario y clave de acceso propias, pero no podrá usar nombres que sean coincidentes con marcas comerciales, denominaciones sociales, nombres de personas relevantes públicas o privadas, seudónimos famosos, relevantes, o de reconocido prestigio, denominaciones malsonantes y cualquier expresión, nombre o denominación que vayan contrarias a la ley moral. En cualquier caso joyeriasaresso.com se reservará el derecho de eliminar o denegar dichos nombres de usuarios en el caso de que se entienda que cumple alguna de las excepciones relatadas en este párrafo.
-        
-        El usuario/cliente de joyeriasaresso.com se compromete a no facilitar su nombre y clave de acceso a terceros, con el fin de no incurrir en responsabilidades por el uso fraudulento de dichos datos. En caso de pérdida  o robo, debe comunicar por los canales que anteriormente se citaron al joyeriasaresso.com dicha pérdida para que a la mayor brevedad posible podamos inutilizar el uso de dicho nombre y clave.
-        
-        Joyeriasaresso.com queda exonerada de toda responsabilidad por el uso fraudulento y/o la falta de diligencia que haga el usuario de su nombre de acceso y clave de acceso, cualesquiera que sean los daños o perjuicios.
-        <br>  
-        III. DERECHOS Y OBLIGACIONES DE JOYERIASARESSO.COM
-        <br>  
-        Joyeriasaresso.com puede suspender temporalmente el servicio de su página web sin previos aviso para todas aquellas acciones que considere oportunas realizar y que conlleven por razones técnicas dicha suspensión. De igual forma podrá eliminar, bloquear y/o suspender tanto los accesos como los comentarios de usuarios cuando estos no se avengan al uso lícito que se presupone y no se encuadren dentro de la legalidad vigente. De igual forma estas eliminaciones y bloqueos podrían ser llevados a cabo con el fin de prevenir posibles usos ilícitos según el criterio de joyeriasaresso.com.
-        <br>  
-        IV. CONTENIDOS DE JOYERIASARESSO.COM
-        <br>  
-        Joyeriasaresso.com se exonera de los contenidos, información, opiniones o comentarios enviados o difundidos a través de su página web, dominio, correo electrónico o portal ni responderá del uso que el cliente y/o usuario realice con esa información.
-        <br>  
-        V. PEDIDO
-        <br>  
-        El pedido se tramitará y realizará a través de la web joyeriasaresso.com y únicamente quedará reflejado y aceptado cuando el pago se realice y pueda ser comprobado por joyeriasaresso.com.
-        
-        El precio de un artículo en un pedido se mantendrá por un máximo de 3 días, pudiendo cambiar en función de la política de precios de joyeriasaresso.com
-        
-        Los artículos que no estén en stock, bien no aparecerán o no se podrá efectuar pedido sobre ellos, pudiendo si el cliente así lo estima ponerse en contacto con joyeriasaresso.com por los canales habilitados para conocer el tiempo de reposición si esta fuera realizable.
-        
-        Cualquier incidencia que ocurra después de la realización del pedido con los artículos solicitados, se le comunicará al cliente con la mayor brevedad posible. En el caso de disconformidad, el cliente podrá cancelar el pedido y se le reembolsará la cantidad a través del método de pago utilizado al realizar el pedido. 
-        
-        En el formulario de compra quedará reflejado el lugar al cual habrá que enviar los artículos comprados. Si el pedido es efectivamente realizado a partir de las 16:00h, se comenzará a tramitar por el personal de joyeriasaresso.com al día siguiente. Para ello deberá de estar debidamente acreditado el pago de dicho pedido. En caso de que joyeriasaresso.com no pueda acreditar dicho pago a todos los efectos el pedido no será procesado y permanecerá en espera como si no estuviera efectuado.
-        
-        Una vez comprobado el pago por joyeriasaresso.com, se enviará una factura al lugar de envío del pedido, junto o por separado del pedido.
-        
-        Si joyeriasaresso.com tuviera sospechas de delito en la compra de un artículo o bien ante las dudas por el procedimiento de compra llevado a cabo por el usuario/cliente puede llevar a cabo la cancelación de dicho pedido de forma unilateral. 
-        
-        VI. DEVOLUCIONES
-        <br>  
-        POLÍTICAS DE DEVOLUCIÓN
-        <br>  
-        Si no queda satisfecho con las piezas adquiridas, el plazo máximo para realizar devoluciones es de 14 días naturales a partir de la recepción del pedido.
-        
-        En el caso de detectarse que el producto ha sido usado, manipulado o dañado por negligencia u otro factor, no se aceptará la devolución del producto. Los artículos que hayan sido comprados personalizados y/o grabados con nombre, foto o cualquiera que sea el método de personalización no podrán ser nunca devueltos ni cambiados.
-        
-        Todos nuestros productos se envían en perfecto estado, habiendo pasado una rigurosa prueba de calidad. En el caso de que al recibir el producto se observe algún defecto, se debe informar lo antes posible para realizar la sustitución inmediatamente. Ante la eventualidad de realizar la devolución sin informar previamente del estado del producto, no se aceptará la devolución de la pieza.
-        
-        RECOMENDAMOS revisar minuciosamente todos los productos antes de realizar la devolución, para asegurarse de que todo vuelve en perfecto estado para que podamos proceder a su devolución.
-        
-        Si el pago del pedido ha sido efectuado con tarjeta de crédito o cuenta PayPal, reembolsaremos el importe de la joya en la tarjeta o cuenta PayPal con la que se realizó el pago. Si el pago ha sido efectuado mediante transferencia bancaria, abonaremos el importe a la cuenta bancaria que nos indiques.
-        <br>  
-        El coste de la devolución es gratuito. 
-        <br>  
-        Procedimiento de devolución
-        
-        El cliente puede devolver el artículo a través de cualquier medio admitido en derecho, entre los que se encuentran los siguientes:
-        <br>  
-        A. Llámenos al 942 324 292 o envíenos un mail a contacto@joyeriasaresso.com o póngase en contacto en la dirección postal: Polígono el campón 22 nave 14, 39001 Santander, para solicitar la devolución o cambio. Nuestro horario es de L-V de 8:30 a 16:30. 
-        Enviaremos al transportista a recoger el paquete. El envío de esta devolución, será hecha a través de la empresa de transporte que joyeriasaresso.com le indique salvo que el cliente indique el deseo de usar su propio transportista siempre y cuando notifique a joyeriasaresso.com para poder notificar la recepción del envío.
-        También pueden entregarse los productos a devolver en cualquiera de nuestras tiendas, previo aviso a nuestro servicio de atención al cliente para que podamos avisar a la tienda del proceso de devolución, y desde allí nos realizarían el envío a nuestras oficinas.
-        <br>  
-        B. Debes incluir en la devolución, el artículo, las cajas y bolsas y el certificado de garantía que acompaña a cada artículo, y debe ser el original en todos los casos.
-        <br>  
-        C. Una vez recibido el paquete y verifiquemos que figura lo descrito en el apartado B, nos pondremos en contacto contigo enviando un email de confirmación o te llamaremos por teléfono para dar la conformidad o no a tu devolución.
-        <br>  
-        VII. PRECIOS
-        <br>  
-        Todos los precios de la web llevan incluido el descuento de las tiendas físicas. Además estos pueden verse diferidos de los precios de las tiendas debido a promociones exclusivas de la página web.
-        
-        Todos nuestros precios incluyen en I.V.A., vigente en cada momento, y son válidos en el momento en que ocurren. En el caso de que nos solicite algún producto que no se encuentra en stock, procederemos a la notificación al cliente con la opción de cancelar de forma inmediata el pedido con la devolución íntegra a través del mismo método desde el que se haya realizado el pago, o bien sustituir por un producto de similares características, siempre a elección del cliente.
-        
-        Debido a la fluctuación del oro en el mercado un mismo modelo de artículo puede estar disponible con varias referencias, variando su precio dependiendo de la cotización del oro en el momento de la compra del metal a proveedor. La referencia del producto en la web variará en función del stock disponible del artículo.
-        
-        Los gastos que conlleva la compra de un artículo en joyeriasaresso.com queda especificado en el apartado correspondiente a transporte. Pudiendo variar en función de la política que joyeriasaresso.com marque en cada momento. En cualquier caso, el usuario/cliente sabrá de antemano y en cada artículo el coste de dicho transporte, así como el coste de cualesquiera que sean los requisitos para enviar al lugar designado por dicho usuario su venta.
-        <br>
-        VIII. TRANSPORTE Y PLAZOS DE ENTREGA
-        <br>        
-        Joyeriasaresso.com enviará los pedidos con la mayor brevedad posible en un plazo que va desde los 3 a 6 días laborables para un pedido estándar desde el momento en que dicho pedido esté pagado, consideramos días laborables de lunes a viernes, exceptuando los festivos oficiales marcados en el calendario oficial para la ciudad de Santander. No obstante cuando este plazo no se pueda cumplir, joyeriasaresso.com se pondrá en contacto con el cliente para hacerle llegar la fecha nueva de entrega y pedirá su conformidad para efectuarla en una nueva fecha pudiendo cancelarse de forma inmediata.
-        <br>   
-        Disponemos de los siguientes métodos de envío:                                                
-        <br>   
-        - ENVÍO A DOMICILIO: Recibirás tu pedido en la dirección de envío que nos facilites en su pedido. Desde el momento en que recibas la confirmación de envío, pasarán a entregarlo al día siguiente.
-        <br>   
-        Los plazos de entrega según la ubicación será el siguiente:
-        <br>   
-        - Artículo en almacén central: Envío en 3 - 6 días después de procesar el pedido.
-        <br>   
-        - Artículo en almacén secundario: Envío en 3 - 9 días después de procesar el pedido.
-        <br>   
-        - Artículo personalizado: 3-5 días después de procesar el pedido.
-        <br>  
-        - Artículos sin stock: 15- 40 días, siempre avisando al cliente y manteniendo el contacto para conocer el estado de su paquete. 
-        <br>  
-        - ENVÍO A OFICINA DE CORREOS: Se enviará tu pedido a la oficina de Correos que elijas, desde el momento en que recibas la confirmación de envío (ver tiempos en parte superior) estará disponible entre 3 a 6 días laborables  en la oficina.
-        <br>  
-        - CLICK & STORE: Recógelo en la tienda Aresso que tú elijas de forma gratuita. El plazo de entrega será según la lista de ENVÍO A DOMICILIO .Te enviaremos un email de confirmación cuando lo tengas disponible en tienda.
-        <br>  
-        El coste del envío es de 3,95€ siempre que el importe del pedido sea inferior a 50€. A partir de esta cifra, el transporte será gratuito. 
-        Esta norma es válida para toda la península y Baleares.
-        <br>  
-        Actualmente realizamos envíos de pedidos a España, Islas Canárias y Baleares.
-        <br>  
-        En periodos de campañas los tiempos de entrega se pueden demorar debido al alto volumen de pedidos.
-        
-        En cualquier caso joyeriasaresso.com no tendrá responsabilidad en la no entrega en tiempo y lugar del pedido del cliente cuando esta sea por causas ajenas a joyeriasaresso.com.
-        
-        El cliente deberá firmar el albarán de entrega que el transportista le muestre dando su conformidad a la entrega.
-        
-        Para subsanar errores en la entrega, el cliente deberá hacer constar en el apartado de observaciones del albarán de entrega la no conformidad respecto a la mercancía, envase u otra anomalía que detecte en la entrega.
-        
-        Así mismo, joyeriasaresso.com se reserva el derecho a recuperar un artículo en caso de impago del mismo.
-        <br>
-        IX. GARANTÍAS
-        <br>  
-        Todos nuestros artículos están garantizados por defecto de fabricación durante 2 años.
-        Las piezas de oro pueden estar realizadas en oro de 18 quilates (750 milésimas) o en oro de 9 quilates (375 milésimas), estando ambos casos especificados visible y convenientemente tanto en la web como en el certificado de garantía. Los artículos de plata están realizados en plata de 925 milésimas.
-        La garantía se aplica siempre y cuando el producto sea utilizado bajo las condiciones normales de uso determinadas por los proveedores. youareweb.com no está obligado a indemnizar al usuario o a terceros por las consecuencias de un mal uso del producto, ya sean daños directos o indirectos, 
-        accidentes sufridos por personas, daños a los bienes ajenos al producto, pérdidas de beneficio o lucro cesante, daños que provengan de un deterioro o pérdidas del producto.
-        Los productos quedan fuera de garantía si, una vez entregados al cliente, han recibido algún deterioro por hechos externos o accidentes.
-        
-        En caso de que un producto esté defectuoso, joyeriasaresso.com deberá proceder, según decisión del cliente, a la reparación completamente gratuita, sustitución, devolución del artículo o rebaja del precio. Para ello recogerá el producto que el cliente devuelva "sin coste" y valorará la opción más adecuada dándosele la solución al cliente en el plazo de 24h. 
-        GRATIS cambios y devoluciones.
-        
-        La garantía legal para devolución de producto defectuoso será, según la normativa de la UE y normativa nacional, de tres años desde la fecha de entrega, y será sin coste alguno.
-        
-        El consumidor y usuario deberá informar al vendedor de la falta de conformidad en el plazo de dos meses desde que tuvo conocimiento de ella.
-        <br>
-        X. FUERO Y LEGISLACIÓN
-        <br>  
-        Estas Condiciones Generales se rigen por la ley española. Las partes se someten, a su elección, para la resolución de los conflictos y con renuncia a cualquier otro fuero, a los juzgados y tribunales del domicilio del usuario.
-        El Usuario/Cliente, declara haber leído, conocer y aceptar las presentes Condiciones Generales en toda su extensión.
-    </p3>
-	<br>
-	<br>
+    I. TITULAR Y OBJETO
+    <br>
+    El titular de la página web www.youare.com es IMPORTACIONES Angelagc, S.L. con domicilio social en calle Joaquín
+    zoyas, local 6 (Sevilla) con CIF: ESB-2783890, dedicada a la venta de artículos de joyería y relojería, inscrita en
+    el Registro Mercantil de Sevilla/ S 1, Asiento 782, Diario 195, Hora 11:35 / Fecha 270995, Nº entrada documento
+    9252.
+    Por la presente, se pretende regular las condiciones de uso y acceso al sitio web, así como de las responsabilidades
+    derivadas de su utilización. En adelante nos referiremos a la página web como yourareweb.com
+    El uso y/o utilización de yourareweb.com atribuye la condición de usuario, quién declara conocer y aceptar sin
+    reserva ni excepción las condiciones generales que en este documento se citan.
+    youareweb.com dará la posibilidad a los usuarios de acceder a los servicios, que concierne al objeto social de
+    yourareweb.com., y solamente a dicho objeto como es la venta online de artículos de joyería, relojería y regalo.
+    <br>
+    Las presentes Condiciones Generales se resolverán automáticamente por la extinción de la sociedad IMPORTACIONES
+    Angelagc, S.L. o por la presentación de solicitudes de declaración de quiebra, voluntaria o necesaria suspensión de
+    pagos, concurso de acreedores, cesión general de bienes a favor de acreedores, cese de las actividades propias de la
+    sociedad, petición de quita o espera etc.
+    Si cualquier cláusula incluida en estas condiciones generales fuese declarada, total o parcialmente, nula o
+    ineficaz, tal nulidad o ineficacia afectará tan sólo a dicha disposición o a la parte de la misma que resulte nula o
+    ineficaz, subsistiendo las condiciones generales en todo lo demás, teniéndose tal disposición, o la parte de la
+    misma que resultase afectada, por no puesta.
+    yourareweb.com dispone del número de teléfono 649 12 83 02 así como la dirección de correo electrónico
+    yourareweb@gmail.com donde el usuario podrá resolver las dudas que se le presenten.
+    <br>
+    II. DERECHOS Y OBLIGACIONES DEL USUARIO
+    <br>
+    Las condiciones de acceso a yourareweb.com están suscritas a las disposiciones legales vigentes en cada momento así
+    como a los principios de buena fe y uso lícito por parte del usuario, prohibiéndose expresamente cualquier clase de
+    actuación que pudiera ir en perjuicio de yourareweb.com o de terceras personas físicas y/o jurídicas.
+    yourareweb.com no exige darse de alta en nuestra web para la simple navegación, acceso o utilización del servicio en
+    cuestión. El usuario se compromete a hacer un uso lícito, diligente y correcto de cuanta información o contenido
+    tenga acceso bien a través de nuestra web o de otras webs adjuntas a yourareweb.com y todo ello bajo el principio de
+    la buena fe y con respeto en todo momento a la legalidad vigente. Queda totalmente prohibido copiar, reproducir,
+    distribuir, ceder o modificar el contenido de nuestra web sin nuestro consentimiento por escrito.
+
+    El usuario/cliente debe cumplir los derechos de propiedad intelectual e industrial que afecten a nuestra web,
+    yourareweb.com
+
+    El usuario/cliente de nuestra web yourareweb.com, debe de usar y conservar un nombre de usuario y una contraseña en
+    virtud de las siguientescláusulas.
+
+    Podrá elegir una nombre de usuario y clave de acceso propias, pero no podrá usar nombres que sean coincidentes con
+    marcas comerciales, denominaciones sociales, nombres de personas relevantes públicas o privadas, seudónimos famosos,
+    relevantes, o de reconocido prestigio, denominaciones malsonantes y cualquier expresión, nombre o denominación que
+    vayan contrarias a la ley moral. En cualquier caso yourareweb.com se reservará el derecho de eliminar o denegar
+    dichos nombres de usuarios en el caso de que se entienda que cumple alguna de las excepciones relatadas en este
+    párrafo.
+
+    El usuario/cliente de yourareweb.com se compromete a no facilitar su nombre y clave de acceso a terceros, con el fin
+    de no incurrir en responsabilidades por el uso fraudulento de dichos datos. En caso de pérdida o robo, debe
+    comunicar por los canales que anteriormente se citaron al yourareweb.com dicha pérdida para que a la mayor brevedad
+    posible podamos inutilizar el uso de dicho nombre y clave.
+    yourareweb.com queda exonerada de toda responsabilidad por el uso fraudulento y/o la falta de diligencia que haga el
+    usuario de su nombre de acceso y clave de acceso, cualesquiera que sean los daños o perjuicios.
+    <br>
+        III. CONTENIDOS DE yourareweb.COM
+    <br>
+    yourareweb.com se exonera de los contenidos, información, opiniones o comentarios enviados o difundidos a través de
+    su página web, dominio, correo electrónico o portal ni responderá del uso que el cliente y/o usuario realice con esa
+    información.
+    <br>
+        IV. PEDIDO
+    <br>
+    El pedido se tramitará y realizará a través de la web yourareweb.com y únicamente quedará reflejado y aceptado
+    cuando el pago se realice y pueda ser comprobado por yourareweb.com.
+
+    El precio de un artículo en un pedido se mantendrá por un máximo de 3 días, pudiendo cambiar en función de la
+    política de precios de yourareweb.com
+
+    Los artículos que no estén en stock, bien no aparecerán o no se podrá efectuar pedido sobre ellos, pudiendo si el
+    cliente así lo estima ponerse en contacto con yourareweb.com por los canales habilitados para conocer el tiempo de
+    reposición si esta fuera realizable.
+
+    Cualquier incidencia que ocurra después de la realización del pedido con los artículos solicitados, se le comunicará
+    al cliente con la mayor brevedad posible. En el caso de disconformidad, el cliente podrá cancelar el pedido y se le
+    reembolsará la cantidad a través del método de pago utilizado al realizar el pedido.
+
+    En el formulario de compra quedará reflejado el lugar al cual habrá que enviar los artículos comprados. Si el pedido
+    es efectivamente realizado a partir de las 16:00h, se comenzará a tramitar por el personal de yourareweb.com al día
+    siguiente. Para ello deberá de estar debidamente acreditado el pago de dicho pedido. En caso de que yourareweb.com
+    no pueda acreditar dicho pago a todos los efectos el pedido no será procesado y permanecerá en espera como si no
+    estuviera efectuado.
+
+    Una vez comprobado el pago por yourareweb.com, se enviará una factura al lugar de envío del pedido, junto o por
+    separado del pedido.
+
+    Si yourareweb.com tuviera sospechas de delito en la compra de un artículo o bien ante las dudas por el procedimiento
+    de compra llevado a cabo por el usuario/cliente puede llevar a cabo la cancelación de dicho pedido de forma
+    unilateral.
+
+    V. PRECIOS
+    <br>
+    Todos los precios de la web llevan incluido el descuento de las tiendas físicas. Además estos pueden verse diferidos
+    de los precios de las tiendas debido a promociones exclusivas de la página web.
+
+    Todos nuestros precios incluyen en I.V.A., vigente en cada momento, y son válidos en el momento en que ocurren. En
+    el caso de que nos solicite algún producto que no se encuentra en stock, procederemos a la notificación al cliente
+    con la opción de cancelar de forma inmediata el pedido con la devolución íntegra a través del mismo método desde el
+    que se haya realizado el pago, o bien sustituir por un producto de similares características, siempre a elección del
+    cliente.
+
+    Debido a la fluctuación del oro en el mercado un mismo modelo de artículo puede estar disponible con varias
+    referencias, variando su precio dependiendo de la cotización del oro en el momento de la compra del metal a
+    proveedor. La referencia del producto en la web variará en función del stock disponible del artículo.
+
+    Los gastos que conlleva la compra de un artículo en yourareweb.com queda especificado en el apartado correspondiente
+    a transporte. Pudiendo variar en función de la política que yourareweb.com marque en cada momento. En cualquier
+    caso, el usuario/cliente sabrá de antemano y en cada artículo el coste de dicho transporte, así como el coste de
+    cualesquiera que sean los requisitos para enviar al lugar designado por dicho usuario su venta.
+    <br>
+    VII. TRANSPORTE Y PLAZOS DE ENTREGA
+    <br>
+    yourareweb.com enviará los pedidos con la mayor brevedad posible en un plazo que va desde los 3 a 6 días laborables
+    para un pedido estándar desde el momento en que dicho pedido esté pagado, consideramos días laborables de lunes a
+    viernes, exceptuando los festivos oficiales marcados en el calendario oficial para la ciudad de Sevilla. No obstante
+    cuando este plazo no se pueda cumplir, yourareweb.com se pondrá en contacto con el cliente para hacerle llegar la
+    fecha nueva de entrega y pedirá su conformidad para efectuarla en una nueva fecha pudiendo cancelarse de forma
+    inmediata.
+    <br>
+    Disponemos de los siguientes métodos de envío:
+    <br>
+    - ENVÍO A DOMICILIO: Recibirás tu pedido en la dirección de envío que nos facilites en su pedido. Desde el momento
+    en que recibas la confirmación de envío, pasarán a entregarlo al día siguiente.
+    <br>
+    Los plazos de entrega según la ubicación será el siguiente:
+    <br>
+    - Artículo en almacén central: Envío en 6 días hábiles después de pedir el pedido.
+    <br>
+    - Artículo personalizado: 3-5 días después de procesar el pedido.
+    <br>
+    - CLICK & STORE: Recógelo en la tienda Your Are que tú elijas de forma gratuita.Te enviaremos un email de confirmación 
+    cuando lo tengas en tienda.
+    <br>
+    El coste del envío es de 1,95€ siempre que el importe del pedido sea inferior a 50€. A partir de esta cifra, el
+    transporte será gratuito. Esta norma es válida para toda la península y Baleares.
+    <br>
+    En periodos de campañas los tiempos de entrega se pueden demorar debido al alto volumen de pedidos.
+
+    En cualquier caso yourareweb.com no tendrá responsabilidad en la no entrega en tiempo y lugar del pedido del cliente
+    cuando esta sea por causas ajenas a yourareweb.com.
+
+    El cliente deberá firmar el albarán de entrega que el transportista le muestre dando su conformidad a la entrega.
+
+    Para subsanar errores en la entrega, el cliente deberá hacer constar en el apartado de observaciones del albarán de
+    entrega la no conformidad respecto a la mercancía, envase u otra anomalía que detecte en la entrega.
+
+    Así mismo, yourareweb.com se reserva el derecho a recuperar un artículo en caso de impago del mismo.
+    <br>
+    VIII. GARANTÍAS
+    <br>
+    Todos nuestros artículos están garantizados por defecto de fabricación durante 2 años.
+    Las piezas de oro pueden estar realizadas en oro de 18 quilates (750 milésimas) o en oro de 9 quilates (375
+    milésimas), estando ambos casos especificados visible y convenientemente tanto en la web como en el certificado de
+    garantía. Los artículos de plata están realizados en plata de 925 milésimas.
+    La garantía se aplica siempre y cuando el producto sea utilizado bajo las condiciones normales de uso determinadas
+    por los cliente. youareweb.com no está obligado a indemnizar al usuario por las consecuencias de un
+    mal uso del producto, ya sean daños directos o indirectos, accidentes sufridos por personas, daños a los bienes 
+    ajenos al producto, pérdidas de beneficio o lucro cesante, daños que provengan de un deterioro o pérdidas del producto.
+    Los productos quedan fuera de garantía si, una vez entregados al cliente, han recibido algún deterioro por hechos
+    externos o accidentes.
+
+    En caso de que un producto esté defectuoso, yourareweb.com deberá proceder, según decisión del cliente, a la
+    reparación completamente gratuita, sustitución, devolución del artículo o rebaja del precio. Para ello recogerá el
+    producto que el cliente devuelva "sin coste" y valorará la opción más adecuada dándosele la solución al cliente en
+    el plazo de 24h.
+    GRATIS cambios y devoluciones.
+
+    La garantía legal para devolución de producto defectuoso será, según la normativa de la UE y normativa nacional, de
+    tres años desde la fecha de entrega, y será sin coste alguno.
+
+    El consumidor y usuario deberá informar al vendedor de la falta de conformidad en el plazo de dos meses desde que
+    tuvo conocimiento de ella.
+    <br>
+    IX. FUERO Y LEGISLACIÓN
+    <br>
+    Estas Condiciones Generales se rigen por la ley española. Las partes se someten, a su elección, para la resolución
+    de los conflictos y con renuncia a cualquier otro fuero, a los juzgados y tribunales del domicilio del usuario.
+    El Usuario/Cliente, declara haber leído, conocer y aceptar las presentes Condiciones Generales en toda su extensión.
+  </p3>
   <br>
-	<br>
   <br>
-	<br>
-	<!--Pie de pagina con las redes sociales-->
-	<div class="container-fluid" style="position:absolute">
-		<div class="row">
-		<footer class="p-3 mb-2 col-12 alert alert-danger">
-		  <ul class="nav justify-content-center border-bottom p-3 mb-2">
-			<a href="BOE-A-2018-proteccion de datos.pdf" class="nav-link px-2 text-muted">Protección de Datos</a></li>
-			<a href="#" class="nav-link px-2 text-muted">Terminos y condiciones</a></li>
-			<a href="nuestratienda.html" class="nav-link px-2 text-muted">Nuestra tienda</a></li>
-		  </ul>
-		  <br>
-		  <div class="row justify-content-center">
-		  <p1 class="text-center">Angelagc©2022</p1>
-		  </div>
-		  <br>
-		  <div class="row justify-content-center">
-			<img src="redes sociales/facebook.png" style="width: 50px; height: 50px;">
-			<img src="redes sociales/instagram.png" style="width: 50px; height: 50px">
-			<img src="redes sociales/twitter.png" style="width: 50px; height: 50px">
-			<img src="redes sociales/whatsapp.png" style="width: 50px; height: 50px">
-		  </div>	
-		</footer>
-		</div>
-	</div>
-	<!--Enlaces de bootstrap-->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!--Pie de pagina con las redes sociales-->
+  <div class="container-fluid" style="position:absolute">
+    <div class="row">
+      <footer class="p-3 mb-2 col-12 alert alert-danger">
+        <ul class="nav justify-content-center border-bottom p-3 mb-2">
+          <a href="BOE-A-2018-proteccion de datos.pdf" class="nav-link px-2 text-muted">Protección de Datos</a></li>
+          <a href="#" class="nav-link px-2 text-muted">Terminos y condiciones</a></li>
+          <a href="nuestratienda.html" class="nav-link px-2 text-muted">Nuestra tienda</a></li>
+        </ul>
+        <br>
+        <div class="row justify-content-center">
+          <p1 class="text-center">Angelagc©2022</p1>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+          <img src="redes sociales/facebook.png" style="width: 50px; height: 50px;">
+          <img src="redes sociales/instagram.png" style="width: 50px; height: 50px">
+          <img src="redes sociales/twitter.png" style="width: 50px; height: 50px">
+          <img src="redes sociales/whatsapp.png" style="width: 50px; height: 50px">
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!--Enlaces de bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
-
-
