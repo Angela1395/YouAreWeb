@@ -6,7 +6,7 @@
     <h3> [Your are web] 👕<h3>
     <h5>Descúbrelo en ✅</h5>
     <h3>
-        <a href="">
+        <a href="https://view.genial.ly/62976c1331641100188e10e3/presentation-presentacion-your-are-web">
             Genial.ly
         </a>
         <span> | </span>
@@ -14,7 +14,7 @@
             Figma
         </a>
         <span> | </span>
-         <a href="">
+         <a href="https://youtu.be/pbx0gKDa--k">
             VideoDemo
         </a>
     </h3>
